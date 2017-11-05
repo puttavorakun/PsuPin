@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Post</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/logingg.css">
+</head>
+
+<body>
+
+  <div class="mainDiv" align="right">
+    <h1 align="left">Post</h1>
+
+    <textarea id="mainText" placeholder="Enter your message .. "></textarea>
+
+    <button id="submitBtn" onclick="submitClick()">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+
+
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">User</i>
+    </h2>
+    <h1 style="color:palevioletred" id="fireHeading"></h1>
+
+  </div>
+
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">lenado Lisa</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading2"></h1>
+
+  </div>
+  <div class="mainDiv">
+
+    <h2 >
+      <i class="fa fa-heart">Bakoyama</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading3"></h1>
+
+  </div>
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">Parata</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading4"></h1>
+
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDp12cwdOACLCrd9aLrs8-x8Z7y1LGByr4",
+      authDomain: "worawut-57798.firebaseapp.com",
+      databaseURL: "https://worawut-57798.firebaseio.com",
+      projectId: "worawut-57798",
+      storageBucket: "worawut-57798.appspot.com",
+      messagingSenderId: "47802945063"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+</body>
+<script src="logingg.js"></script>
+
+</html>
